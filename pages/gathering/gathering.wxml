@@ -1,0 +1,8 @@
+<!--pages/gathering/gathering.wxml-->
+<view class="container">
+  <view class="monetContent">
+    <text class="title">金额</text> 
+    <input name="money" value='￥200.00'/>
+  </view>
+  <view class="submit" bindtap="linkToGatheringSuccess">确认收款</view>
+</view>

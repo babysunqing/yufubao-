@@ -1,0 +1,56 @@
+<!--pages/cardDetail/cardDetail.wxml-->
+<view class="container">
+  
+    <view class="crad" bindtap="linkToCardDetail">
+      <view class="cardMian" >
+        <image src="../../image/head.png"></image>
+        <text class="cardTitle">元旦回馈</text>
+        <text class="cardDetail">充200送100</text>        
+      </view>
+      <view class="cardTime">
+        <text class="time">2018-01-01</text>
+        <text class="more iconfont icon-gengduo"></text>
+        <text class="clickDetail">查看详情</text>
+      </view>
+    </view>
+
+    <view class="cardExplain">
+      <view class="title">卡券说明</view>
+      <view class="explainDetail">
+        <view class="explainItem">
+          1、会员卡只在本中心声明范围内有效。
+        </view>
+        <view class="explainItem">
+          2、会员享受会员服务及处理相关事项时，须出示会员卡，如未出示产生的费用由会员承担。
+        </view>
+        <view class="explainItem">
+          3、会员卡只在本中心声明范围内有效
+        </view>
+        <view class="explainItem">
+          4、须出示会员卡，如未出示产生的费用由会员承担
+        </view>
+      </view>
+    </view>
+
+    <view class="cardExplain">
+      <view class="title">用户手机号</view>
+      <view class="explainDetail">
+        <view class="explainItem">
+          <input class="input" placeholder-class="placeholder" name="tel" placeholder="请输入用户手机号，再生成收款码" bindinput="userTelInput"/>
+        </view>
+      </view>
+    </view>
+    <radio-group class="radioGroup" bindchange="radioChange"> 
+      <view class="radioItem">
+        <text>微信扫码</text><radio class="radio" value="wx" />
+      </view>
+      <view class="radioItem">
+        <text>支付宝扫码</text><radio class="radio" value="zf" />
+      </view>
+      
+    </radio-group>
+    
+    <view class="done" bindtap="linkToQRCode">生成收款码</view>
+
+</view>
+

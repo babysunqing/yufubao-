@@ -1,0 +1,18 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="telContent">
+    <image src="../../image/icon_phone.png"></image>
+    <input class="input telInput" placeholder-class="placeholder"  name="userName" placeholder="请输入手机号" bindinput="userTelInput"/>
+    <view class="getCode">获取验证码</view>
+  </view>
+  <view class="checkCodeContent">
+    <image src="../../image/icon_password.png"></image>
+    <input class="input" placeholder-class="placeholder"  name="userName" placeholder="请输入验证码" bindinput="userTelInput"/>
+  </view>
+
+  <view class="submit">验证</view>
+  <view class="bottom">
+  <checkbox />
+  我已同意<text>《商户技术和系统服务协议》</text>
+  </view>
+</view>

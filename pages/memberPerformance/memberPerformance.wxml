@@ -1,0 +1,70 @@
+<!--pages/memberPerformance/memberPerformance.wxml-->
+<view class="splitLine"></view>
+<view class="line">
+  <view class="left">
+    <text class="date">2018-01</text>
+    <text class="sort">排名由高到低</text>
+  </view>
+  <text class="money" bindtap="linkToChooseMonth">更多</text>     
+</view>
+
+<view class="lineDetail">
+  <view class="lineDetailItem">
+    <view class="imgContent">
+      <image src='../../image/head.png'></image>
+    </view>
+    <view class="dateMemberMoney">
+      <view class="dateMember">
+        <text class="member">
+          店员a
+        </text>
+        <text class="date">
+          共19笔
+        </text>
+      </view>
+      <text class="money">
+        ￥1890.00
+      </text>
+    </view>
+  </view>
+
+  <view class="lineDetailItem">
+    <view class="imgContent">
+      <image src='../../image/head.png'></image>
+    </view>
+    <view class="dateMemberMoney">
+      <view class="dateMember">
+        <text class="member">
+          店员1
+        </text>
+        <text class="date">
+          共28笔
+        </text>
+      </view>
+      <text class="money">
+        ￥3000.00
+      </text>
+    </view>
+  </view>
+
+  <view class="lineDetailItem">
+    <view class="imgContent">
+      <image src='../../image/head.png'></image>
+    </view>
+    <view class="dateMemberMoney">
+      <view class="dateMember">
+        <text class="member">
+          店员2
+        </text>
+        <text class="date">
+          共21笔
+        </text>
+      </view>
+      <text class="money">
+        ￥2000.00
+      </text>
+    </view>
+  </view>   
+
+</view>
+

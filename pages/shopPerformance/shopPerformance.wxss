@@ -1,0 +1,107 @@
+/* pages/shopPerformance/shopPerformance.wxss */
+page{  
+  display: flex;  
+  flex-direction: column;  
+  height: 100%;  
+}  
+.navbar{  
+  flex: none;  
+  display: flex;  
+  background: #BE793A;  
+  color: #fff;
+}  
+.navbar .item{  
+  position: relative;  
+  flex: auto;  
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 80rpx;
+  margin-top: -90rpx;
+}  
+.navbar .item.active{  
+  color: #fff;  
+}  
+.navbar .item.active:after{  
+  content: "";  
+  display: block;  
+  position: absolute;  
+  bottom: 3px;
+  left: 38%;  
+  right: 30%;  
+  height: 4rpx;  
+  width: 24%;
+  background: #fff;
+}  
+.line{
+  width: 100%;
+  height: 88rpx;
+  border-bottom: 1px #f0f0f0 solid;
+  line-height: 88rpx;
+  font-size: 28rpx;
+}
+.line .date{
+  color: #333;
+  float: left;
+  margin-left: 34rpx
+}
+.line .money{
+  color: #808080;
+  float: right;
+  margin-right: 8rpx;
+}
+.line .more{
+  font-size: 26rpx;
+  float: right;
+  color: #808080;
+  margin-right: 24rpx
+}
+.line .more{
+  font-size: 26rpx;
+  float: right;
+  color: #808080;
+  margin-right: 24rpx
+}
+
+.lineDetail{
+  width: 100%;
+  /* display: none; */
+  border-bottom: 1px #f0f0f0 solid 
+}
+.lineDetailItem{
+  height: 152rpx;
+}
+.imgContent{
+  width: 20%;
+  float: left
+}
+.lineDetail image{
+  width: 88rpx;
+  height: 88rpx;
+  margin-left: 32rpx;
+  margin-top: 32rpx;
+}
+.dateMemberMoney{
+  width: 80%;
+  height: 150.1rpx;
+  float: left;
+   border-bottom: 1px #f0f0f0 solid 
+}
+.lineDetail .dateMember{
+  height: 100%;
+  float: left;
+}
+.member{
+  font-size: 30rpx;
+  color: #333;
+  display: block;
+}
+.lineDetail .date{
+  font-size: 24rpx;
+  color: #999;
+  display: block;
+  margin-top: -20rpx
+}
+.money{
+  float: right;
+  margin-right: 32rpx;
+}

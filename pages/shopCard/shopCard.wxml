@@ -1,0 +1,52 @@
+<!--shopCard.wxml-->
+<view class="container">
+
+  <view class="dateItem one" bindtap="showList">
+    <text class="time">2018年01月</text>
+    <text class="more iconfont icon-gengduo" wx:if="{{showList == false}}"></text>
+    <text class="more iconfont icon-xiala" wx:if="{{showList}}"></text>
+    <text class="cardNum">共3张</text>
+  </view>
+  
+  <view class="cardList" wx:if="{{showList}}">
+
+    <view class="cradItem" bindtap="linkToCardDetail">
+      <view class="cardMian" >
+        <image src="../../image/head.png"></image>
+        <text class="cardTitle">元旦回馈</text>
+        <text class="cardDetail">充200送100</text>        
+      </view>
+      <view class="cardTime">
+        <text class="time">2018-01-01</text>
+        <text class="more iconfont icon-gengduo"></text>
+        <text class="clickDetail">查看详情</text>
+      </view>
+    </view>
+
+    <view class="cradItem" bindtap="linkToCardDetail">
+      <view class="cardMian">
+        <image src="../../image/head.png"></image>
+        <text class="cardTitle">元旦回馈</text>
+        <text class="cardDetail">充200送100</text>        
+      </view>
+      <view class="cardTime">
+        <text class="time">2018-01-01</text>
+        <text class="more iconfont icon-gengduo"></text>
+        <text class="clickDetail">查看详情</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="dateItem">
+    <text class="time">2017年12月</text>
+    <text class="more iconfont icon-gengduo"></text>
+    <text class="cardNum">共2张</text>
+  </view>
+
+  <view class="dateItem">
+    <text class="time">2017年10月</text>
+    <text class="more iconfont icon-gengduo"></text>
+    <text class="cardNum">共4张</text>
+  </view>
+</view>

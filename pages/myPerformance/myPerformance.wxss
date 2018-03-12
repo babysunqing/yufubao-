@@ -1,0 +1,87 @@
+/* pages/myPerformance/myPerformance.wxss */
+.splitLine{
+  width: 100%;
+  height: 1px;
+  background-color: #f0f0f0
+}
+.line{
+  width: 100%;
+  height: 88rpx;
+  border-bottom: 1px #f0f0f0 solid;
+  line-height: 88rpx;
+  font-size: 28rpx;
+}
+.line .date{
+  color: #333;
+  float: left;
+  margin-left: 34rpx
+}
+.line .money{
+  color: #808080;
+  float: right;
+  margin-right: 8rpx;
+}
+.line .more{
+  font-size: 26rpx;
+  float: right;
+  color: #808080;
+  margin-right: 24rpx
+}
+.line .more{
+  font-size: 26rpx;
+  float: right;
+  color: #808080;
+  margin-right: 24rpx
+}
+
+.lineDetail{
+  width: 100%;
+  /* display: none; */
+  border-bottom: 1px #f0f0f0 solid 
+}
+.lineDetailItem{
+  height: 152rpx;
+}
+.imgContent{
+  width: 20%;
+  float: left
+}
+.lineDetail image{
+  width: 88rpx;
+  height: 88rpx;
+  margin-left: 32rpx;
+  margin-top: 32rpx;
+}
+.dateMemberMoney{
+  width: 80%;
+  height: 151rpx;
+  float: left;
+   border-bottom: 1px #f0f0f0 solid 
+}
+.lineDetail .dateMember{
+  height: 100%;
+  float: left;
+}
+.member{
+  font-size: 30rpx;
+  color: #333;
+  display: block;
+}
+.lineDetail .date{
+  font-size: 24rpx;
+  color: #999;
+  display: block;
+  margin-top: -20rpx
+}
+.money{
+  float: right;
+  margin-right: 32rpx;
+}
+.bottomMore{
+  width: 100%;
+  font-size: 26rpx;
+  color: #BE793A;
+  position: absolute;
+  bottom: 22rpx;
+  text-align: center;
+}

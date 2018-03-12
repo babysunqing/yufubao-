@@ -1,0 +1,20 @@
+<!--pages/QRcode/QRcode.wxml-->
+<view class="container">
+  <view class="codeContainer">
+    <image class="cardImg" src="../../image/head.png"></image>
+    <view class="containertitle">扫码付款</view>
+    <image class="QRcode" src='../../image/timg.png'></image>
+    <view class="line"></view>
+    <view class="codeDetail">
+      <view class="item item1">
+        <text class="itemTitle">核对手机号</text>
+        <text class="itemDetail">15016500125</text>
+      </view>
+      <view class="item">
+        <text class="itemTitle">付款金额</text>
+        <text class="itemDetail">￥200.00</text>
+      </view>      
+    </view>
+
+  </view>
+</view>

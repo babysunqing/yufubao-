@@ -1,0 +1,129 @@
+<!--pages/shopPerformance/shopPerformance.wxml-->
+
+  <view class="navbar">  
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">
+      {{item}}
+    </text>  
+  </view>  
+  
+  <!--预存记录-->  
+  <view hidden="{{currentTab!==0}}">  
+
+    <view class="line" bindtap="showList">
+      <text class="date">2018-01-12</text>
+      <text class="more iconfont icon-gengduo" wx:if="{{showList == false}}"></text>
+      <text class="more iconfont icon-xiala" wx:if="{{showList}}"></text>
+      <text class="money">￥600.00</text>     
+    </view>
+
+    <view class="lineDetail" wx:if="{{showList}}">
+      <view class="lineDetailItem" bindtap="linkToGatheringSuccess">
+        <view class="imgContent">
+          <image src='../../image/head.png'></image>
+        </view>
+        <view class="dateMemberMoney">
+          <view class="dateMember">
+            <text class="member">
+              付款人
+            </text>
+            <text class="date">
+              2018-02-27
+            </text>
+          </view>
+          <text class="money">
+            $200.00
+          </text>
+        </view>
+      </view>
+
+      <view class="lineDetailItem">
+        <view class="imgContent">
+          <image src='../../image/head.png'></image>
+        </view>
+        <view class="dateMemberMoney">
+          <view class="dateMember">
+            <text class="member">
+              付款人
+            </text>
+            <text class="date">
+              2018-02-27
+            </text>
+          </view>
+          <text class="money">
+            $200.00
+          </text>
+        </view>
+      </view>
+      <view class="lineDetailItem">
+        <view class="imgContent">
+          <image src='../../image/head.png'></image>
+        </view>
+        <view class="dateMemberMoney">
+          <view class="dateMember">
+            <text class="member">
+              付款人
+            </text>
+            <text class="date">
+              2018-02-27
+            </text>
+          </view>
+          <text class="money">
+            $200.00
+          </text>
+        </view>
+      </view>
+
+    </view>
+
+
+    <view style="clear:both"></view>
+
+    <view class="line">
+      <text class="date">2018-01-12</text>
+      <text class="more iconfont icon-gengduo"></text>
+      <text class="money">￥600.00</text>     
+    </view>
+    <view class="line">
+      <text class="date">2018-01-12</text>
+      <text class="more iconfont icon-gengduo"></text>
+      <text class="money">￥600.00</text>     
+    </view>
+
+  </view>  
+  
+  <!--门店收入-->  
+  <view hidden="{{currentTab!==1}}">  
+
+    <view class="line">
+      <text class="date">2018-01-12</text>
+      <text class="more iconfont icon-gengduo"></text>
+      <text class="money">￥1000.00</text>     
+    </view>
+    <view class="line">
+      <text class="date">2018-01-12</text>
+      <text class="more iconfont icon-gengduo"></text>
+      <text class="money">￥200.00</text>     
+    </view>
+    <view class="line">
+      <text class="date">2018-01-12</text>
+      <text class="more iconfont icon-gengduo"></text>
+      <text class="money">￥200.00</text>     
+    </view>
+    <view class="line">
+      <text class="date">2018-01-12</text>
+      <text class="more iconfont icon-gengduo"></text>
+      <text class="money">￥2300.00</text>     
+    </view>
+    <view class="line">
+      <text class="date">2018-01-12</text>
+      <text class="more iconfont icon-gengduo"></text>
+      <text class="money">￥1000.00</text>     
+    </view>
+    <view class="line">
+      <text class="date">2018-01-12</text>
+      <text class="more iconfont icon-gengduo"></text>
+      <text class="money">￥8800.00</text>     
+    </view>
+
+  </view>  
+

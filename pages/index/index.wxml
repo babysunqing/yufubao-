@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="user">
+    <image class="bgImg" src="../../image/bg.png" style='width:100%;height:300rpx;'></image>
+    <view class="userImg" bindtap="linkToLogin"><image src="{{userInfo.avatarUrl}}"></image></view> 
+    <view class="userName">{{userInfo.nickName}}</view> 
+    <view class="userTel">15016500125</view> 
+  </view>
+
+   <view class="cardAndGetMoney">
+    <view class="card" bindtap="linkToShopCard">
+      <image src="../../image/icon_card.png"></image>
+      <text class="myCardTitle">店铺卡券</text>
+      <text class="more iconfont icon-gengduo"></text>
+    </view>
+    <view class="getMoney" bindtap="linkToGathering">
+      <image src="../../image/icon_sweep.png"></image>
+      <text class="myCardTitle">扫码收款</text>
+      <text class="more iconfont icon-gengduo"></text>
+    </view>
+  </view> 
+
+  <view class="cardAndGetMoney achievements">
+    <view class="card" bindtap="linkToShopPerformance">
+      <image src="../../image/icon_shop.png"></image>
+      <text class="myCardTitle">店铺业绩</text>
+      <text class="more iconfont icon-gengduo"></text>
+    </view>
+    <view class="getMoney" bindtap="linkToMemberPerformance">
+      <image src="../../image/icon_results.png"></image>
+      <text class="myCardTitle">店员业绩</text>
+      <text class="more iconfont icon-gengduo"></text>
+    </view>
+    <view class="getMoney" bindtap="linkToMyPerformance">
+      <image src="../../image/icon_results copy.png"></image>
+      <text class="myCardTitle">我的业绩</text>
+      <text class="more iconfont icon-gengduo"></text>
+    </view>
+    <view class="getMoney">
+      <image src="../../image/icon_voice.png"></image>
+      <text class="myCardTitle">收款语音播报</text>
+      <switch class="wx-checkbox-input" name="switch" color="#bf793a"/>
+    </view>
+  </view> 
+  
+
+</view>

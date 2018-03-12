@@ -1,0 +1,105 @@
+/* pages/chooseDay/chooseDay.wxss */
+.container{
+  color: #333;
+}
+.clickChange{
+  width: 192rpx;
+  height: 52rpx;
+  position: absolute;
+  left: 0;
+  margin-left: 32rpx;
+  margin-top: 50rpx;
+  background-color: #f0f0f0;
+  border-radius: 100px;
+  border:1px solid #ccc;
+  text-align: center; 
+  line-height: 52rpx;
+}
+image{
+   width: 40rpx;
+   height: 40rpx; 
+   float: left;
+   margin-top: 6rpx;
+   margin-left:6rpx; 
+}
+.change{
+  font-size: 28rpx;
+  color: #333;
+  float: left;
+  margin-left: 24rpx;
+}
+.chooseDate{
+  width: 100%;
+  font-size: 32rpx;
+  color: #bf793a;
+  margin-top: 200rpx;
+  text-align: center;
+}
+.chooseDateMiddle{
+  width: 10%;
+  color: #666;
+  font-size: 28rpx;
+}
+.chooseBeginTime{
+  min-width:40%;
+  max-width: 40%;
+  float: left; 
+  border-bottom: 1px #bf793a solid; 
+  padding-bottom: 22rpx;
+  margin-bottom: 80rpx; 
+  margin-left: 5%;
+}
+.chooseEndTime{ 
+  min-width:40%;
+  max-width: 40%;
+  float: left;
+  border-bottom: 1px #bf793a solid; 
+  padding-bottom: 22rpx;
+  margin-bottom: 80rpx;
+}
+.chooseDateMiddle{
+  float: left; 
+}
+ picker-view{
+  color: #333;
+  height: 350rpx;
+  width: 95%;
+} 
+.columnLeft{
+  width: 33%;
+  float: left;
+}
+.columnMiddle{
+  width: 33%;
+  float: left;
+}
+.columnRight{
+  width: 33%;
+  float: right
+}
+.year{
+  text-align: center;
+  font-size: 32rpx;
+  line-height: 40px; 
+}
+.month{
+  text-align: center;
+  font-size: 32rpx;
+  line-height: 40px; 
+}
+.day{
+  text-align: center;
+  font-size: 32rpx;
+  line-height: 40px; 
+}
+.doneBtn{
+  width: 268rpx;
+  height: 80rpx;
+  background-color: #bf793a;
+  border-radius: 6px;
+  margin-top: 200rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 34rpx
+}

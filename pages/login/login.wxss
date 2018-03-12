@@ -1,0 +1,74 @@
+/* pages/login/login.wxss */
+.container{
+  padding-left: 76rpx;
+  padding-right: 76rpx;
+}
+image{
+  width: 48rpx;
+  height: 48rpx;
+  float: left;
+  margin-top: 45rpx;
+}
+.telContent{
+  width: 100%;
+  height: 100rpx;
+  margin-top: 150rpx;
+   /* background-color: #ddd;  */
+  border-bottom: 1px #f0f0f0 solid;
+}
+.checkCodeContent{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px #f0f0f0 solid;
+}
+.placeholder{
+  font-size: 30rpx;
+  color: #ccc;
+}
+.more{
+  float: left;
+  width: 10%;
+  margin-top: 50rpx;
+}
+input{
+  width: 80%;
+  margin-top: 40rpx;
+  color: #333;
+  font-size: 30rpx;
+  float: left
+}
+.telInput{
+  width: 62%;
+  border-right: 1px #f0f0f0 solid
+}
+.getCode{
+  width: 27%;
+  color: #fd9840;
+  font-size: 24rpx;
+  float: left;
+  margin-top: 52rpx;
+  text-align: center;
+  /* background-color: #ddd; */
+}
+.submit{
+  width: 100%;
+  height: 88rpx;
+  border-radius: 6px;
+  margin-top: 96rpx;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 34rpx;
+  line-height: 88rpx;
+  text-align: center
+}
+.bottom{
+  width: 100%;
+  color: #999;
+  font-size: 28rpx;
+  margin-top: 22rpx;
+}
+.bottom text{
+  color: #fd9840;
+}
+checkbox{
+}

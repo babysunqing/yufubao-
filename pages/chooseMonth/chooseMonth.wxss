@@ -1,0 +1,76 @@
+/* pages/chooseDate/chooseDate.wxss */
+.container{
+  color: #333;
+}
+image{
+   width: 40rpx;
+   height: 40rpx; 
+   float: left;
+   margin-top: 6rpx;
+   margin-left:6rpx; 
+}
+.change{
+  font-size: 28rpx;
+  color: #333;
+  float: left;
+  margin-left: 24rpx;
+}
+.clickChange{
+  width: 192rpx;
+  height: 52rpx;
+  position: absolute;
+  left: 0;
+  margin-left: 32rpx;
+  margin-top: 50rpx;
+  background-color: #f0f0f0;
+  border-radius: 100px;
+  border:1px solid #ccc;
+  text-align: center; 
+  line-height: 52rpx;
+}
+.chooseDate{
+  width: 90%;
+  font-size: 32rpx;
+  color: #bf793a;
+  margin-top: 200rpx;
+  text-align: center;
+  border-bottom: 1px #bf793a solid;
+  padding-bottom: 22rpx;
+  margin-bottom: 80rpx;
+}
+ picker-view{
+  color: #333;
+  height: 350rpx;
+  width: 100%
+} 
+.columnLeft{
+  width: 50%;
+  float: left;
+}
+.year{
+  /* height: 78rpx; */
+  margin-left: 136rpx;
+  font-size: 32rpx;
+   line-height: 40px; 
+}
+.columnRight{
+  width: 50%;
+  float: right
+}
+.month{
+  text-align: right;
+  margin-right: 136rpx;
+  font-size: 32rpx;
+  line-height: 40px; 
+}
+.doneBtn{
+  width: 268rpx;
+  height: 80rpx;
+  background-color: #bf793a;
+  border-radius: 6px;
+  margin-top: 200rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 34rpx
+}

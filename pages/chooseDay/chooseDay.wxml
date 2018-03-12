@@ -1,0 +1,29 @@
+<!--pages/chooseDay/chooseDay.wxml-->
+<view class="container"> 
+  <view class="clickChange">
+    <text class="change" bindtap="linkToChooseMonth">按日选择</text>
+    <image src="../../image/icon_switch.png"></image>
+  </view>
+   <view class="chooseDate">
+    <input class="chooseBeginTime" readonly="readonly" placeholder="开始时间" r value="{{beginTime}}" />
+     <text class="chooseDateMiddle">至</text> 
+    <input class="chooseEndTime" placeholder="结束时间" focus="{{focus}}" value="{{endTime}}" />
+   </view> 
+  
+  <picker-view  indicator-style="height: 40px;" value="{{value}}" bindchange="bindChange">
+
+    <picker-view-column class="columnLeft">
+      <view class="year" wx:for="{{years}}" wx:key="item">{{item}}年</view>
+    </picker-view-column>
+
+    <picker-view-column class="columnMiddle">
+      <view class="month" wx:for="{{months}}"  wx:key="item">{{item}}月</view>
+    </picker-view-column>
+
+    <picker-view-column class="columnRight">
+      <view class="day" wx:for="{{days}}"  wx:key="item">{{item}}日</view>
+    </picker-view-column>
+
+  </picker-view>
+  <view class="doneBtn">完成</view>
+</view>

@@ -1,0 +1,61 @@
+/* pages/QRcode/QRcode.wxss */
+page{
+  background-color: #BF793A
+}
+.container{
+  padding-left: 32rpx;
+  padding-right: 32rpx;
+  font-family: 
+}
+.codeContainer{
+  width: 100%;
+  height: 728rpx;
+  margin-top: 102rpx;
+  background-color: #fff;
+  border-radius: 6px;
+  text-align: center
+}
+.cardImg{
+  width: 140rpx;
+  height: 140rpx;
+  margin-top: -70rpx;
+}
+.containertitle{
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-size: 32rpx;
+  margin-top: 16rpx
+}
+.QRcode{
+  width: 340rpx;
+  height: 340rpx;
+  margin-top: 26rpx
+}
+.line{
+  width: 96%;
+  height: 1px;
+  margin-top: 40rpx;
+  margin-left: 2%;
+  background-color: #f0f0f0
+}
+.item1{
+  width: 100%;
+  margin-top: 30rpx;
+}
+.item{
+  color: #333;
+  clear: both;
+  height: 56rpx;
+  line-height: 56rpx;
+}
+.itemTitle{
+  font-size: 30rpx;
+  float: left;
+  margin-left: 24rpx;
+}
+.itemDetail{
+  font-size: 32rpx;
+  float: right;
+  margin-right: 24rpx
+}

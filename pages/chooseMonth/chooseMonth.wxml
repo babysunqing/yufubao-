@@ -1,0 +1,20 @@
+<!--pages/chooseDate/chooseDate.wxml-->
+<view class="container">
+  <view class="clickChange">
+    <text class="change" bindtap="linkToChooseDay">按月选择</text>
+    <image src="../../image/icon_switch.png"></image>
+  </view>
+  <view class="chooseDate">{{year}}-{{month}}</view>
+  <picker-view indicator-style="height: 40px;" value="{{value}}" bindchange="bindChange">
+
+    <picker-view-column class="columnLeft">
+      <view class="year" wx:for="{{years}}"  wx:key="{{item}}">{{item}}年</view>
+    </picker-view-column>
+
+    <picker-view-column class="columnRight">
+      <view class="month" wx:for="{{months}}" wx:key="{{item}}">{{item}}月</view>
+    </picker-view-column>
+
+  </picker-view>
+  <view class="doneBtn">完成</view>
+</view>

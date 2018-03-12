@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/register/register",
+    "pages/shopCard/shopCard",
+    "pages/cardDetail/cardDetail",
+    "pages/QRcode/QRcode",
+    "pages/gathering/gathering",
+    "pages/gatheringSuccess/gatheringSuccess",
+    "pages/shopPerformance/shopPerformance",
+    "pages/memberPerformance/memberPerformance",
+    "pages/myPerformance/myPerformance",
+    "pages/chooseMonth/chooseMonth",
+    "pages/chooseDay/chooseDay",
+    "pages/searchDetail/searchDetail",
+    "pages/login/login"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "预付宝",
+    "navigationBarTextStyle":"black"
+  },
+  "debug": true
+}

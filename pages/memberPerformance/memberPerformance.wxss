@@ -1,0 +1,75 @@
+/* pages/memberPerformance/memberPerformance.wxss */
+.splitLine{
+  width: 100%;
+  height: 1px;
+  background-color: #f0f0f0
+}
+.line{
+  width: 100%;
+  height: 118rpx;
+  border-bottom: 1px #f0f0f0 solid;
+  font-size: 28rpx;
+}
+.left{
+  float: left;
+  margin-left: 34rpx;
+}
+.line .date{
+  color: #333;
+  display: block;
+  font-size: 30rpx;
+  margin-top: 24rpx;
+}
+.sort{
+  font-size: 22rpx;
+  color: #999;
+  margin-top: 16rpx;
+}
+.line .money{
+  color: #bd7839;
+  float: right;
+  margin-right: 32rpx;
+  line-height: 118rpx;
+}
+.lineDetail{
+  width: 100%;
+  /* display: none; */
+}
+.lineDetailItem{
+  height: 152rpx;
+}
+.imgContent{
+  width: 20%;
+  float: left
+}
+.lineDetail image{
+  width: 88rpx;
+  height: 88rpx;
+  margin-left: 32rpx;
+  margin-top: 32rpx;
+}
+.dateMemberMoney{
+  width: 80%;
+  height: 151rpx;
+  float: left;
+   border-bottom: 1px #f0f0f0 solid 
+}
+.lineDetail .dateMember{
+  height: 100%;
+  float: left;
+}
+.member{
+  font-size: 30rpx;
+  color: #333;
+  display: block;
+}
+.lineDetail .date{
+  font-size: 24rpx;
+  color: #999;
+  display: block;
+  margin-top: -20rpx
+}
+.money{
+  float: right;
+  margin-right: 32rpx;
+}

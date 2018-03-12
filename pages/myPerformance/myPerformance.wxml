@@ -1,0 +1,67 @@
+<!--pages/myPerformance/myPerformance.wxml-->
+<view>
+
+  <view class="splitLine"></view>
+  <view class="line" bindtap="showList">
+    <text class="date">2018-01-12</text>
+    <text class="more iconfont icon-gengduo" wx:if="{{showList == false}}"></text>
+    <text class="more iconfont icon-xiala" wx:if="{{showList}}"></text>
+    <text class="money">￥600.00</text>     
+  </view>
+
+  <view class="lineDetail" wx:if="{{showList}}">
+        <view class="lineDetailItem">
+          <view class="imgContent">
+            <image src='../../image/head.png'></image>
+          </view>
+          <view class="dateMemberMoney">
+            <view class="dateMember">
+              <text class="member">
+                付款人
+              </text>
+              <text class="date">
+                2018-02-27
+              </text>
+            </view>
+            <text class="money">
+              $200.00
+            </text>
+          </view>
+        </view>
+
+        <view class="lineDetailItem">
+          <view class="imgContent">
+            <image src='../../image/head.png'></image>
+          </view>
+          <view class="dateMemberMoney">
+            <view class="dateMember">
+              <text class="member">
+                付款人
+              </text>
+              <text class="date">
+                2018-02-27
+              </text>
+            </view>
+            <text class="money">
+              $200.00
+            </text>
+          </view>
+        </view>
+
+  </view>
+
+
+  <view style="clear:both"></view>
+
+  <view class="line">
+    <text class="date">2018-01-12</text>
+    <text class="more iconfont icon-gengduo"></text>
+    <text class="money">￥600.00</text>     
+  </view>
+  <view class="line">
+    <text class="date">2018-01-12</text>
+    <text class="more iconfont icon-gengduo"></text>
+    <text class="money">￥600.00</text>     
+  </view>
+  <view class="bottomMore" bindtap="linkToChooseDay">查看更多</view>
+</view>

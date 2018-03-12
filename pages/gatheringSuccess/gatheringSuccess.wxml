@@ -1,0 +1,29 @@
+<!--pages/gatheringSuccess/gatheringSuccess.wxml-->
+<view class="container">
+  <view class="top">
+    <icon type="success" size="83" color='rgb(186,121,58)' />
+    <text class="gatheringSuccess">收款成功</text>
+    <text class="gatheringMoney">￥200</text>
+  </view>
+
+  <view class="middle">
+    <view class="item">
+      <text class="title">订单金额：</text>
+      <text class="detail">￥200.00</text>
+    </view>
+    <view class="item">
+      <text class="title">收款店铺：</text>
+      <text class="detail">明见002号铺</text>
+    </view>
+    <view class="item">
+      <text class="title">交易时间：</text>
+      <text class="detail">2018-01-01</text>
+    </view>
+    <view class="item">
+      <text class="title">订单编号：</text>
+      <text class="detail">1564987516797</text>
+    </view>
+  </view>
+
+  <view class="submit" bindtap="linkToIndex">返回首页</view>
+</view>
