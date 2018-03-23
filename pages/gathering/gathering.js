@@ -12,6 +12,32 @@ Page({
       url: '../gatheringSuccess/gatheringSuccess'
     })
   },
+  click: function () {
+    var that = this
+    wx.scanCode({
+      success: (res) => {
+        this.show = "--result:" + res.result + "--scanType:" + res.scanType + "--charSet:" + res.charSet + "--path:" + res.path;
+        that.setData({
+          show: this.show
+        })
+        wx.showToast({
+          title: '成功',
+          icon: 'success',
+          duration: 2000
+        }) 
+      },
+      fail: (res) => {
+        wx.showToast({
+          title: '失败',
+          icon: 'success',
+          duration: 2000
+        })
+      },
+      complete: (res) => {
+        
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

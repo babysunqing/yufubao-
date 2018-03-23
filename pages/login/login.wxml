@@ -2,15 +2,23 @@
 <view class="container">
   <view class="telContent">
     <image src="../../image/icon_phone.png"></image>
-    <input class="input telInput" placeholder-class="placeholder"  name="userName" placeholder="请输入手机号" bindinput="userTelInput"/>
-    <view class="getCode">获取验证码</view>
+    <input class="input telInput" 
+      placeholder-class="placeholder"
+      placeholder="请输入手机号"
+      bindinput="bindPhoneInput"/>
+    <view class="getCode" bindtap="getCode" wx:if="{{reGet == false && countDownNum == ''}}">获取验证码</view>
+    <view class="getCode" bindtap="getCode" wx:if="{{reGet == true && countDownNum == ''}}">重新获取</view>
+     <view class="getCode" bindtap="getCode" wx:if="{{countDownNum != ''}}">{{countDownNum}}</view> 
   </view>
   <view class="checkCodeContent">
     <image src="../../image/icon_password.png"></image>
-    <input class="input" placeholder-class="placeholder"  name="userName" placeholder="请输入验证码" bindinput="userTelInput"/>
+    <input class="input" 
+      placeholder-class="placeholder" 
+      placeholder="请输入验证码" 
+      bindinput="bindVerificationCodeInput"/>
   </view>
 
-  <view class="submit">验证</view>
+  <view class="submit" bindtap='login'>验证</view>
   <view class="bottom">
   <checkbox />
   我已同意<text>《商户技术和系统服务协议》</text>

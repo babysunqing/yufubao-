@@ -1,4 +1,4 @@
-<!--pages/memberPerformance/memberPerformance.wxml-->
+<!--pages/memberPerformance/memberPerformance.wxml 店员业绩-->
 <view class="splitLine"></view>
 <view class="line">
   <view class="left">

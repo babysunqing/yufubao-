@@ -1,4 +1,4 @@
-<!--pages/cardDetail/cardDetail.wxml-->
+<!--pages/cardDetail/cardDetail.wxml 卡券详情-->
 <view class="container">
   
     <view class="crad" bindtap="linkToCardDetail">

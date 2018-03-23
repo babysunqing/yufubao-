@@ -13,7 +13,7 @@
       <text class="myCardTitle">店铺卡券</text>
       <text class="more iconfont icon-gengduo"></text>
     </view>
-    <view class="getMoney" bindtap="linkToGathering">
+    <view class="getMoney" bindtap="scanCode">
       <image src="../../image/icon_sweep.png"></image>
       <text class="myCardTitle">扫码收款</text>
       <text class="more iconfont icon-gengduo"></text>

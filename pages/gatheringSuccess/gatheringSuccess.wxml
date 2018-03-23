@@ -1,4 +1,4 @@
-<!--pages/gatheringSuccess/gatheringSuccess.wxml-->
+<!--pages/gatheringSuccess/gatheringSuccess.wxml  收款成功-->
 <view class="container">
   <view class="top">
     <icon type="success" size="83" color='rgb(186,121,58)' />

@@ -18,11 +18,6 @@ Page({
       url: '../shopCard/shopCard'
     })
   },
-  linkToGathering: function () {
-    wx.navigateTo({
-      url: '../gathering/gathering'
-    })
-  },
   linkToShopPerformance: function () {
     wx.navigateTo({
       url: '../shopPerformance/shopPerformance'
@@ -36,6 +31,33 @@ Page({
   linkToMyPerformance: function () {
     wx.navigateTo({
       url: '../myPerformance/myPerformance'
+    })
+  },
+  scanCode: function () {
+    var that = this
+    wx.scanCode({
+      success: (res) => {
+        // this.show = "--result:" + res.result + "--scanType:" + res.scanType + "--charSet:" + res.charSet + "--path:" + res.path;
+        wx.navigateTo({
+          url: '../gathering/gathering'
+        })
+        // that.setData({
+        //   show: this.show
+        // })
+        // wx.showToast({
+        //   title: '成功',
+        //   icon: 'success',
+        //   duration: 2000
+        // })
+      },
+      fail: (res) => {
+        // wx.showToast({
+        //   title: '失败',
+        //   icon: 'success',
+        //   duration: 2000
+        // })
+      },
+      complete: (res) => {}
     })
   },
   onLoad: function () {

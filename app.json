@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/login/login",
     "pages/index/index",
     "pages/register/register",
     "pages/shopCard/shopCard",
@@ -12,8 +13,7 @@
     "pages/myPerformance/myPerformance",
     "pages/chooseMonth/chooseMonth",
     "pages/chooseDay/chooseDay",
-    "pages/searchDetail/searchDetail",
-    "pages/login/login"
+    "pages/searchDetail/searchDetail"
   ],
   "window":{
     "backgroundTextStyle":"light",

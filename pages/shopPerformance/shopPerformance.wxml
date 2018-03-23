@@ -1,4 +1,4 @@
-<!--pages/shopPerformance/shopPerformance.wxml-->
+<!--pages/shopPerformance/shopPerformance.wxml 店铺业绩-->
 
   <view class="navbar">  
     <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">

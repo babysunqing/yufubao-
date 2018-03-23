@@ -1,4 +1,4 @@
-<!--shopCard.wxml-->
+<!--shopCard.wxml 店铺卡券-->
 <view class="container">
 
   <view class="dateItem one" bindtap="showList">
